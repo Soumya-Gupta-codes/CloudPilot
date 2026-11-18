@@ -1,0 +1,35 @@
+# Environments & Dependencies
+.env
+.venv/
+env/
+venv/
+node_modules/
+
+# Build artifacts
+dist/
+build/
+*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# Python cache & tests
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+coverage/
+.coverage
+htmlcov/
+results/
+
+# Database & logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
